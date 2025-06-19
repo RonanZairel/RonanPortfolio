@@ -36,7 +36,7 @@ To deploy this site using GitHub Pages:
 4. Save and wait a few moments
 
 Live site (if deployed):  
-🔗 `https://ronanportfolio.vercel.app/`
+🔗 [`https://ronanportfolio.vercel.app/`](https://ronanportfolio.vercel.app/)
 
 ## 📫 Contact
 
