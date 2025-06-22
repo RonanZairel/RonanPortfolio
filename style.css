@@ -1165,7 +1165,7 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 50px
+    padding: 0px
 }
 
 .cta:hover:before,
@@ -1185,7 +1185,7 @@ footer {
 }
 
 .info-div {
-    width: 50%;
+    width: 85%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -1229,12 +1229,34 @@ footer {
 }
 
 .project-buttons {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 20px
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-top: 1rem;
 }
+
+.project-button {
+  display: inline-block;
+  padding: 10px 24px;
+  background: linear-gradient(135deg, #9262eb, #6558ee);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.project-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  filter: brightness(1.1); /* subtle brightening on hover */
+}
+
 
 .github-redirect {
     width: 50px
@@ -1790,13 +1812,13 @@ footer {
 
     .project-box {
         flex-direction: column;
-        height: 800px
+        height: 100%
     }
 
     .image-div,
     .info-div {
         width: 100%;
-        height: 50%
+        height: 85%
     }
 
     .image-div {
@@ -1904,20 +1926,20 @@ footer {
     }
 
     .project-box {
-        height: 550px
+        height: 100%
     }
 
     .info-div {
-        height: 60%
+        height: 100%;
     }
 
     .image-div {
-        height: 40%;
-        padding-left: 50px
+        height: 100%;
+        padding-left: 30px
     }
 
     .image-div img {
-        border-top-left-radius: 10px
+        border-top-left-radius: 0px
     }
 
     .tech-stack-wrapper {
